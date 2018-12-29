@@ -15,7 +15,7 @@ install:
 
 script:
     #- platformio run
-    - platformio ci --board=esp12e --keep-build-dir
+    - platformio ci --board=esp12e --keep-build-dir .
 
 
 
