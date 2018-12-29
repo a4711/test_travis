@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 void setup() {
-  Serial.begin(74880)
+  Serial.begin(74880);
 }
 
 void loop() {
