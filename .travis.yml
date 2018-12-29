@@ -32,6 +32,8 @@ cache:
 install:
     - pip install -U platformio
     - platformio update
+    # FastLED=126, 
+    - platformio lib -g install 126
 
 script:
     - platformio run
