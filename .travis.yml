@@ -2,9 +2,6 @@ language: python
 python:
     - "2.7"
 
-addons:
-     artifacts: true
-
 sudo: false
 cache:
     directories:
